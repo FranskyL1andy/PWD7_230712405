@@ -1,0 +1,48 @@
+body{
+    background-color: azure;
+    margin: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+fieldset{
+    width: 350px;
+    border: 3px solid cadetblue;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px;
+    background-color:lightgrey;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+input, select{
+    width: 200%;
+    max-width: 300px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button, input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover{
+    background-color: #0056b3;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Formulir Reservasi Kamar Hotel</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+    </head>
+    <body>
+        <h1><strong>Reservation Hotel Room</strong></h1>
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Personal Date</legend>
+                <ol>
+                    <li>
+                        <label for="nama">Name</label><br/>
+                        <input type="text" id="nama" name="nama"/>
+                    </li>
+                    <li>
+                        <label for="gen">Gender</label><br/>
+                        <input type="text" id="gen" name="gen"/>
+                    </li>
+                    <li>
+                        <label for="email">Email Address</label><br/>
+                        <input type="text" id="email" name="email"/>
+                    </li>
+                    <li>
+                        <label for="telepon">Telp Number</label><br/>
+                        <input type="text" id="telepon" name="telepon"/>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <h3>Reservation Room Form</h3>
+            <ol>
+                <li>
+                    <label for="namares">Reservation Name</label><br/>
+                    <input type="text" id="namares" name="namares"/>
+                </li>
+                <li>
+                    <label for="bookdate">Booking Date</label><br/>
+                    <input type="text" id="bookdate" name="bookdate"/>
+                </li>
+                <li>
+                    <label for="tipe">Room Type</label><br/>
+                    <select id="tipe" name="tipe">
+                        <option>Regular</option>
+                        <option>Deluxe</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="bed">Bed Type</label><br/>
+                    <select id="bed" name="bed">
+                        <option>Single Bed</option>
+                        <option>Double Bed</option>
+                        <option>King Bed</option>
+                    </select>
+                </li>
+            </ol>
+
+            <fieldset>
+                <legend>Payment</legend>
+                <ol>
+                    <li>
+                        <label for="cekin">Check in Date</label><br/>
+                        <input type="text" id="cekin" name="cekin"/>
+                    </li>
+                    <li>
+                        <label for="cekout">Check out Date</label><br/>
+                        <input type="text" id="cekout" name="cekout"/>
+                    </li>
+                    <li>
+                        <label for="pay">Payment Method</label><br/>
+                        <select id="pay" name="pay">
+                        <option>Cash</option>
+                        <option>Non-Cash</option>
+                        </select>
+                    </li>
+                </ol>
+            </fieldset>
+
+            <input type="submit" id="simpan" name="simpan" value="Submit"/>
+        </form>
+    </body>
+</html>
